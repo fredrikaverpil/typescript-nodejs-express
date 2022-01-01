@@ -3,7 +3,7 @@
 - Node.js executes JavaScript, not TypeScript.
 - We'll use `tsc` to compile ts->js and then have nodemon serve the js app.
 
-## Setup
+## Setup (this was already done)
 
 ```bash
 nvm install --lts
@@ -36,14 +36,14 @@ Add a new `start` script to `package.json`:
 "start": "nodemon dist/app.js"
 ```
 
-Try running `app.ts`:
+## Run
 
 ```bash
 node_modules/typescript/bin/tsc -w
 npm start  # the new start script we added to package.json
 ```
 
-## Run
+## Perform REST API calls
 
 Launch e.g. Postman or Thunder Client in vscode, then send a `POST` request to `http://localhost:3000/todos/` with json `{"text": "hello world"}`. This will add a todo. Example response:
 
