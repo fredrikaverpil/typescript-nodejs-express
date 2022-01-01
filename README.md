@@ -1,7 +1,7 @@
 # typescript-nodejs-express
 
 - Node.js executes JavaScript, not TypeScript.
-- We'll use `tsc` to compile ts->js and then have nodemon serve the js app.
+- We'll use `tsc` to compile ts->js and then have `nodemon` serve the js app.
 
 ## Setup (this was already done)
 
